@@ -327,6 +327,10 @@ p {
   border: 1px solid #fff;
   background: transparent;
 }
+.--btn-tertiary{
+  /*color: #000000;*/
+  background: transparent;
+}
 .--btn-danger {
   color: #fff;
   background: orangered;
@@ -465,6 +469,11 @@ a:hover {
   /* color: var(--color-dark); */
   font-size: 2rem;
 }
+
+a:active {
+  font-size: 2rem;
+}
+
 
 .ql-editor {
   min-height: 200px;

@@ -1,0 +1,71 @@
+import React from "react";
+// import { RiProductHuntLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
+import "./Services.scss";
+import logoImg from "../../assets/logo-the-rogue-2.jpg";
+
+const Services = () => {
+  return (
+    <div className="services">
+      <nav className="container --flex-between">
+        <Link to="/">
+          <img src={logoImg} alt="logo" width="73px"/>
+        </Link>
+        
+        <ul className="services-links">
+            <li>
+              <Link to="/story">Story</Link>
+            </li>
+
+            <li>
+              <button className="--btn --btn-tertiary">
+                <Link to="/services">Services</Link>
+              </button>
+            </li>
+            <li>
+              <Link to="/team">Team</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+        </ul>
+      </nav>
+
+      {/* SERVICE SECTION */}
+      <section className="container service">
+        <div className="service-text">
+          <h2>Service 1</h2>
+          <br/>
+          <p>
+            Description...
+          </p>
+        </div>
+        <div className="service-text">
+          <h2>Service 2</h2>
+          <br/>
+          <p>
+            Description...
+          </p>
+        </div>
+      </section>
+      <section className="container service">
+        <div className="service-text">
+          <h2>Service 3</h2>
+          <br/>
+          <p>
+            Description...
+          </p>
+        </div>
+        <div className="service-text">
+          <h2>Service 4</h2>
+          <br/>
+          <p>
+            Description...
+          </p>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Services;
