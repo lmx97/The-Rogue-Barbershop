@@ -1,73 +1,113 @@
 .services {
-    background-color: #000000;
+    // background-color: 'transparent';
+    background-color: black;
     min-height: 100vh;
-  
-    & nav {
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      height: auto;
-      color: #fff;
-      & > .logo {
-        color: #fff;
-      }
-    }
+    min-width: 100vw;
+    display: block;
+    justify-content: center;
+    align-items: flex-end;
   }
 
+  .services-header {
+    background-color: rgba(0,0,0,0.2);;
+    margin: auto;
+    text-align: center;
+    // border-bottom: 4px dotted gray;
+
+    & > h3 {
+      color: lightseagreen;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 40px;
+    }
+
+    p {
+      font-style: italic;
+      color: aliceblue;
+      font-size: large;
+    }
+  }
 
   .services-links {
     display: flex;
     justify-content: center;
     align-items: center;
-    & li a {
-      color: #fff;
-    }
-    & > * {
-      margin-left: 1rem;
-      color: #fff;
-    }
-  }
-  
-  .service {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 70px;
+    background-color: rgba(0,0,0,0.2);
   }
   
   .service-text {
-    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-style: double;
+    border-radius: 10px;
+    border-color: dimgrey;
+    border-width: thick;
+    padding: 20px 50px;
+    background-color: rgba(0,0,0,0.3);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
     & > * {
-      color: #fff;
-      margin-bottom: 2rem;
+      color: lightgray;
     }
-    & > h2 span {
+
+    & > h4 {
+      color: rgb(225, 180, 0);
       display: block;
+      font-style: initial;
+      font-family: 'Times New Roman', Times, serif;
     }
-    & .service-buttons a {
-      color: #fff;
+    
+    & > h5 {
+      color: darkcyan;
     }
+
   }
+  /*
   .service-image {
     width: 50%;
   }
+  */
+
   @media screen and (max-width: 600px) {
-    .service {
-      flex-direction: column;
+    .services {
+      flex-direction: row;
+      height: 100%;
+      margin: auto;
+    }
+
+    .services-header {
+      background-color: rgba(0,0,0,0.2);;
+      margin: auto;
+      text-align: center;
+      // border-bottom: 4px dotted gray;
+  
+      & > h3 {
+        color: lightseagreen;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 0px;
+      }
+  
+      p {
+        font-style: italic;
+        color: aliceblue;
+        font-size: large;
+      }
     }
   
     .service-text {
-      display: flex;
+      display: block;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      width: 100%;
       margin: auto;
       text-align: center;
     }
+    /*
     .service-image {
       width: 100%;
       &img {
         width: 100%;
       }
     }
+    */
   }
