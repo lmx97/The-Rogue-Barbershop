@@ -1,0 +1,39 @@
+.news {
+    // background-color: 'transparent';
+    // background-color: aqua;
+    min-height: 100vh;
+    min-width: 100vw;
+    // min-width: 100vw;
+    margin-top: 80px;
+    display: block;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    overflow: inherit;
+  }
+
+  .news-links {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .news {
+      flex-direction: column;
+      background-size: 100%;
+      margin: auto;
+
+    }
+  
+    .news-links {
+      width: 100%;
+      &img {
+        width: 100%;
+        size: 100%;
+      }
+    }
+  }
