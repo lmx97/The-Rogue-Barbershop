@@ -1,66 +1,53 @@
 import React from "react";
 // import { RiProductHuntLine } from "react-icons/ri";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./Services.scss";
-import logoImg from "../../assets/logo-the-rogue-2.jpg";
+// import logoImg from "../../assets/logo-the-rogue-2.jpg";
+import bgImg from "../../assets/bg.jpg";
 
 const Services = () => {
   return (
-    <div className="services">
-      <nav className="container --flex-between">
-        <Link to="/">
-          <img src={logoImg} alt="logo" width="73px"/>
-        </Link>
-        
-        <ul className="services-links">
-            <li>
-              <Link to="/story">Story</Link>
-            </li>
-
-            <li>
-              <button className="--btn --btn-tertiary">
-                <Link to="/services">Services</Link>
-              </button>
-            </li>
-            <li>
-              <Link to="/team">Team</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-        </ul>
-      </nav>
-
-      {/* SERVICE SECTION */}
-      <section className="container service">
+    <div className="services" id="services"
+    style={{backgroundImage: `url(${bgImg})`, 
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: '100%',
+    height:'100%',
+    backgroundColor: 'black'}}
+>
+      <section className="services-header">
+        <h3>Services</h3>
+        <p>First-rate services in FadeCut, Wash, and Beard Trim. <br/>
+        Witty quips and good conversations come standard. Walk-ins only.
+        </p>
+      </section>
+      <section className="services-links">
         <div className="service-text">
-          <h2>Service 1</h2>
+          <h4>FadeCut</h4>
+          <h5>RM 30</h5>
           <br/>
           <p>
-            Description...
+            Consultation and cut
+            and style with premium products.
           </p>
         </div>
         <div className="service-text">
-          <h2>Service 2</h2>
+          <h4>FadeCut & Wash</h4>
+          <h5>RM 35</h5>
           <br/>
           <p>
-            Description...
+            Consultation, cut, wash, blow dry, 
+            and style with premium products.
           </p>
         </div>
       </section>
-      <section className="container service">
+      <section className="services-links">
         <div className="service-text">
-          <h2>Service 3</h2>
+          <h4>Beard Trim</h4>
+          <h5>RM 15</h5>
           <br/>
           <p>
-            Description...
-          </p>
-        </div>
-        <div className="service-text">
-          <h2>Service 4</h2>
-          <br/>
-          <p>
-            Description...
+          Consultation, trim, straight razor edging, and hot & cold towel combo. <br/>
+          Finished with after-shave, lotion, and your choice of beard oil or balm.
           </p>
         </div>
       </section>

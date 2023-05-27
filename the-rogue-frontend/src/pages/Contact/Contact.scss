@@ -1,0 +1,114 @@
+.contact {
+    // background-color: 'transparent';
+    background-color: black;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: block;
+    // justify-content: center;
+    // align-items: flex-end;
+  }
+
+  .contact-header {
+    // background-color: aquamarine;
+    margin: auto;
+    text-align: center;
+    // border-bottom: 4px dotted gray;
+
+    & > h3 {
+      color: green;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 40px;
+    }
+
+    p {
+      font-style: italic;
+      color: #fff;
+      font-size: large;
+    }
+  }
+
+  .contact-links {
+    display: block ;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  .contact-text-2 {
+    margin: auto;
+    text-align: left;
+    border-style: double;
+    border-radius: 10px;
+    border-color: dimgrey;
+    border-width: thick;
+    padding: 230px 500px;
+    // background-color: dimgrey;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-left: 50px;
+
+    & > * {
+      color: white;
+    }
+  }
+  
+  .contact-text {
+    margin: auto;
+    text-align: left;
+    border-style: double;
+    border-radius: 10px;
+    border-color: dimgrey;
+    border-width: thick;
+    padding: 20px 50px;
+    // background-color: dimgrey;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    margin-right: 50px;
+
+    & > * {
+      color: lightgrey;
+    }
+    
+    b {
+      color: rgb(185, 129, 24);
+    }
+
+    a {
+      color: lightgray;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .contact {
+      flex-direction: row;
+    }
+  
+    .contact-text {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+    }
+
+    .contact-text-2 {
+      display: block;
+      margin: auto;
+      text-align: center;
+      padding: 80px 160px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      float: right;
+      margin-bottom: 50px;
+      
+      & > * {
+        color: white;
+      }
+    }
+
+  }
