@@ -14,7 +14,6 @@ const Contact = () => {
       </section>
 
         <div className="contact-text-2">
-
         </div>
         
         <div className="contact-text">
