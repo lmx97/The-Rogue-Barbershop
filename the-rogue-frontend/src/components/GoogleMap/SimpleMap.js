@@ -1,3 +1,56 @@
+import React, { useState, useEffect } from 'react';
+import styled from 'styled-components';
+
+import GoogleMapReact from 'google-map-react';
+// import 'google-map-react/dist/index.css'
+
+import LOCATION_CENTER from '../../const/location_center';
+import Marker from './Marker';
+// import { MdLocationOn } from "react-icons/md";
+// import Marker from './components/Marker';
+
+const Wrapper = styled.main`
+  width: 100%;
+  height: 100%;
+`;
+
+const SimpleMap = () => {
+  const [places, setPlaces] = useState([]);
+
+  const fetchPlaces = async () => {
+    fetch('places.json')
+      .then((response) => response.json())
+      .then((data) => setPlaces(data.results));
+  };
+
+  useEffect(() => {
+    fetchPlaces();
+  }, []);
+
+  if (!places || places.length === 0) {
+    return null;
+  }
+
+  return (
+    <Wrapper>
+      <GoogleMapReact defaultZoom={15} defaultCenter={LOCATION_CENTER}>
+        {places.map((place) => (
+          <Marker
+            key={place.id}
+            text={place.name}
+            lat={place.geometry.location.lat}
+            lng={place.geometry.location.lng}
+          />
+        ))}
+      </GoogleMapReact>
+    </Wrapper>
+  );
+};
+
+export default SimpleMap;
+
+
+/*
 import React from "react";
 import GoogleMapReact from 'google-map-react';
 
@@ -29,7 +82,7 @@ export default function SimpleMap(){
     </div>
   );
 }
-
+*/
 /*
 const AnyReactComponent = ({ text }) => (
   <div style={{
