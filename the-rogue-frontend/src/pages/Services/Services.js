@@ -3,7 +3,8 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import "./Services.scss";
 // import logoImg from "../../assets/logo-the-rogue-2.jpg";
-import bgImg from "../../assets/bg.jpg";
+// import bgImg from "../../assets/bg.jpg";
+import bgImg from "../../assets/cutting-area7.jpeg";
 
 const Services = () => {
   return (
