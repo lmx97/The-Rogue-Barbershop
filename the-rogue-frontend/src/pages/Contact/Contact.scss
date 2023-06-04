@@ -1,11 +1,11 @@
 .contact {
     // background-color: 'transparent';
-    background-color: black;
+    // background-color: aqua;
     min-height: 100vh;
     min-width: 100vw;
     display: block;
-    // justify-content: center;
-    // align-items: flex-end;
+    justify-content: center;
+    align-items: center;
   }
 
   .contact-header {
@@ -17,7 +17,7 @@
     & > h3 {
       color: green;
       font-family: 'Times New Roman', Times, serif;
-      margin-top: 40px;
+      margin-top: 20px;
     }
 
     p {
@@ -27,26 +27,39 @@
     }
   }
 
-  .contact-links {
-    display: block ;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
+  .contact-header-2 {
+    // background-color: aquamarine;
+    margin: auto;
+    text-align: center;
+    margin-top: 0px;
+    // border-bottom: 4px dotted gray;
+
+    & > h3 {
+      color: green;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 0px;
+    }
+
+    p {
+      font-style: italic;
+      color: #fff;
+      font-size: large;
+    }
   }
 
   .contact-text-2 {
     margin: auto;
     text-align: left;
-    border-style: double;
-    border-radius: 10px;
-    border-color: dimgrey;
-    border-width: thick;
-    padding: 230px 500px;
+    // border-style: double;
+    // border-radius: 10px;
+    // border-color: dimgrey;
+    // border-width: thick;
+    // padding: 50px 50px;
     // background-color: dimgrey;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     float: left;
-    margin-left: 50px;
+    margin-left: 100px;
 
     & > * {
       color: white;
@@ -60,23 +73,26 @@
     border-radius: 10px;
     border-color: dimgrey;
     border-width: thick;
-    padding: 20px 50px;
+    padding: 10px 40px;
     // background-color: dimgrey;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     float: right;
-    margin-right: 50px;
+    margin-right: 100px;
 
     & > * {
       color: lightgrey;
+      font-size: large;
     }
     
     b {
       color: rgb(185, 129, 24);
+      font-size: larger;
     }
 
     a {
       color: lightgray;
+      font-size: large;
     }
 
   }
@@ -109,6 +125,7 @@
       & > * {
         color: white;
       }
-    }
+
+   }
 
   }

@@ -4,6 +4,7 @@ import { WiTime8 } from "react-icons/wi";
 import { FiPhone, FiInstagram } from "react-icons/fi";
 import { FaFacebookSquare } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
+// import iframe from "react-iframe";
 
 
 const Contact = () => {
@@ -14,8 +15,17 @@ const Contact = () => {
       </section>
 
         <div className="contact-text-2">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15953.495478597799!2d103.6333995!3d1.5417911!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da75a2f3229d1f%3A0xfa112d58b6e89cdb!2sThe%20Rogue%20Barbershop!5e0!3m2!1sen!2ssg!4v1685772681384!5m2!1sen!2ssg" 
+            width="800" 
+            height="440" 
+            style={{borderRadius:'10px'}} 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
         </div>
-        
+      
         <div className="contact-text">
           <p><b>< WiTime8 /> Working Hours:</b></p>
           <p>Mon: 11am - 8.30pm</p>
