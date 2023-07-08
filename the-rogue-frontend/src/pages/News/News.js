@@ -4,7 +4,7 @@ import Slideshow from "../../components/ImageSlider/ImageSlider";
 
 const News = () => {
   return (
-    <div>
+    <div className="news">
       <Slideshow />
     </div>
   );

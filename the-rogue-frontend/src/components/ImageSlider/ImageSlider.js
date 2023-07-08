@@ -3,11 +3,12 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import news1 from "../../assets/News1.jpg";
 import news2 from "../../assets/News2.jpg";
-import logo from "../../assets/logo-the-rogue.jpg";
+import news3 from "../../assets/News3.jpg";
+import "../../pages/News/News.scss";
 
 const slideImages = [
   {
-    url: logo,
+    url: news2,
     // caption: 'Slide 1'
   },
   {
@@ -15,7 +16,7 @@ const slideImages = [
     // caption: 'Slide 2'
   },
   {
-    url: news2,
+    url: news3,
     // caption: 'Slide 3'
   },
 ];

@@ -1,9 +1,8 @@
 .news {
     // background-color: 'transparent';
     // background-color: aqua;
-    min-height: 100vh;
-    min-width: 100vw;
-    // min-width: 100vw;
+    // min-height: 100vh;
+    // width: 100%;
     margin-top: 80px;
     display: block;
     background-position: center;
@@ -21,12 +20,11 @@
     margin: auto;
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 850px) {
     .news {
       flex-direction: column;
       background-size: 100%;
       margin: auto;
-
     }
   
     .news-links {

@@ -5,6 +5,7 @@ import Services from "./pages/Services/Services";
 import News from "./pages/News/News";
 import Team from "./pages/Team/Team";
 import SimpleMap from "./components/GoogleMap/SimpleMap";
+import Cover from "./pages/Cover/Cover";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
           <Route path="/team" element={<Team/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/simple" element={<SimpleMap />} />
-      </Routes>
+          <Route path="/Cover" element={<Cover />} />
+        </Routes>
     </BrowserRouter>
   );
 };

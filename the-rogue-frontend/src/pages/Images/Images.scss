@@ -21,14 +21,17 @@
 .column img {
     margin-top: 8px;
     vertical-align: middle;
-    width: 100%;
+    width: 80%;
     border-radius: 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .column {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
+        -ms-flex: 20%;
+        flex: 20%;
+        max-width: 20%;
     }   
+    .column img {
+        border-radius: 10px;
+    }
 }
