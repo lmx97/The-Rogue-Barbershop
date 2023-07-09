@@ -1,9 +1,7 @@
 import React from "react";
-// import { RiProductHuntLine } from "react-icons/ri";
-// import { Link } from "react-router-dom";
 import "./Team.scss";
 import { BsFillFileEarmarkPersonFill } from "react-icons/bs"
-// import logoImg from "../../assets/logo-the-rogue-2.jpg";
+
 
 const Team = () => {
   return (
