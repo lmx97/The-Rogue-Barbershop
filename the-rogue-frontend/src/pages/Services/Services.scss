@@ -62,22 +62,20 @@
   & > h4 {
     color: rgb(225, 180, 0);
     text-align: center;
-    // display: block;
+    display: block;
     margin: auto;
     // padding: auto;
     //  width: 100%;
     font-style: initial;
     font-family: 'Times New Roman', Times, serif;
     // background-color: aqua;
-
-    & > h5 {
-      color: darkcyan;
-      font-size: large;
-    }
   }
   
-
-
+  & > h5 {
+    color: lightseagreen;
+    font-size: large;
+    margin-top: 2%;
+  }
 }
 
 @media screen and (max-width: 650px) {
