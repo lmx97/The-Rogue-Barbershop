@@ -1,0 +1,153 @@
+.team {
+    background-color: #000000;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-header {
+    margin: auto;
+    text-align: center;
+
+    & > h3 {
+      color: lightseagreen;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 35px;
+    }
+
+    p {
+      font-style: italic;
+      color: #fff;
+      font-size: large;
+    }
+  }
+
+  .team-links {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .team-text {
+    color: #fff;
+    float: left;
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  .team-icon {
+    margin: auto;
+    color: #fff;
+    float: left;
+    text-align: center;
+    margin-left: 15%;
+
+    & > h4 {
+      color: orange;
+      text-shadow: 2px 2px 5px yellow;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin-top: 2%;
+    }
+
+    & > h5 {
+      color: green;
+      font-style: italic;
+      font-size: large;
+      margin-top: -3%;
+    }
+
+    p {
+      font-style: italic;
+      color: #fff;
+    }
+  }
+
+  .team-text-2 {
+    color: #fff;
+    margin-top: 5%;
+    float: center;
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 25%;
+    margin-left: 25%;
+  }
+
+  .team-icon-2 {
+    margin: auto;
+    color: #fff;
+    max-width: 100%;
+    text-align: center;
+
+    & > h4 {
+      color: orange;
+      text-shadow: 2px 2px 5px yellow;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin-top: 2%;
+    }
+
+    & > h5 {
+      color: green;
+      font-style: italic;
+      font-size: large;
+      margin-top: -3%;
+    }
+
+    p {
+      font-style: italic;
+      color: #fff;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .team {
+      flex-direction: row;
+    }
+
+    .team-header {
+      margin: auto;
+      text-align: center;
+      max-width: 90%;
+  
+      & > h3 {
+        margin-top: 20px;
+        font-size: xx-large;
+      }
+  
+      p {
+        font-style: italic;
+        color: #fff;
+        font-size: large;
+        max-width: 95%;
+      }
+    }
+
+    .team-links {
+      display: flex;
+      margin: auto;
+      margin-top: -50px;
+    }
+  
+    .team-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      text-align: center;
+      margin-top: 50px;
+    }
+    
+    .team-text-2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      text-align: center;
+      margin-top: 50px;
+      max-width: fit-content;
+    }
+
+}
