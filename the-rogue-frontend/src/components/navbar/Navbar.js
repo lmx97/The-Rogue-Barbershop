@@ -16,7 +16,7 @@ export default class Navbar extends Component {
                     </li>
                     <li>
                         <Link smooth to="#home">
-                            <img src={logoImg} alt="logo" width="230px" />
+                            <img src={logoImg} alt="logo"/>
                         </Link>
                     </li>
                     <li className="nav-hide">                
