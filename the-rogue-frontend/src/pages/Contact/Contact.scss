@@ -1,0 +1,194 @@
+.contact {
+    min-height: 100vh;
+    // min-width: 100vw;
+    display: block;
+    justify-content: center;
+  }
+
+  .contact-header {
+    // margin: auto;
+    text-align: center;
+
+    & > h3 {
+      color: lightseagreen;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 40px;
+    }
+  }
+
+  .contact-text-2 {
+    // margin: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .contact-text {
+    // margin: auto;
+    text-align: left;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 45%;
+
+    & > * {
+      color: lightgrey;
+      font-size: larger;
+    }
+    
+    b {
+      color: rgb(185, 129, 24);
+      font-size: x-large;
+    }
+
+    a {
+      color: lightgray;
+      font-size: x-large;
+    }
+  }
+  
+  .contact1 {
+    margin-top: 8%;
+
+    & > * {
+      color: lightgrey;
+    }
+    
+    b {
+      color: rgb(185, 129, 24);
+      font-size: x-large;
+    }
+
+    a {
+      color: lightgray;
+      font-size: x-large;
+    }
+  }
+
+  .contact2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .contact3 {
+    color: #fff;
+    flex-direction: row;
+    -ms-flex: 15%;
+    flex: 15%;
+    max-width: 15%;
+    padding: 0 70px;
+    margin-top: 5%;
+
+    & > * {
+      color: lightgrey;
+    }
+
+    p {
+      margin-left: -70px;
+      color: rgb(185, 129, 24);
+      text-align: center;
+    }
+    
+    a {
+      color: rgb(185, 129, 24);
+      font-size: x-large;
+      margin-left: -40px;
+    }
+  }
+
+  @media screen and (max-width:650px) {
+    .contact-text {
+      margin: auto;
+      text-align: left;
+      max-width: 100%;
+      height: 300px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
+      & > * {
+      color: lightgrey;
+      font-size: larger;
+      }
+
+      b {
+        color: rgb(185, 129, 24);
+        font-size: larger;
+      }
+  
+      a {
+        color: lightgray;
+        font-size: larger;
+      }
+    }
+
+    .contact-text-2 {
+      display: block;
+      margin: auto;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin-top: -5%;
+      max-width: 90%;
+   }
+
+   .contact1 {
+    margin: auto;
+    text-align: left;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    // float: left;
+    margin-top: 10%;
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 90%;
+    margin-left: 0%;
+
+    & > p {
+      color: lightgrey;
+      font-size: 20px;
+    }
+
+    b {
+      color: rgb(185, 129, 24);
+      font-size: larger;
+    }
+
+    a {
+      color: lightgray;
+      font-size: larger;
+    }
+   }
+
+   .contact2{
+    margin-top: -3%;
+    width: 100%;
+   }
+
+   .contact3 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 3%;
+    margin-top: 5%;
+    -ms-flex: 30%;
+    flex: 30%;
+    padding: 0 60px;
+
+    & > p {
+      color: lightgrey;
+      font-size: 20px;
+    }
+
+    a {
+      color: rgb(185, 129, 24);
+      font-size: larger;
+      margin-left: -40px;      
+    }
+   }
+
+  }

@@ -1,0 +1,37 @@
+.images {
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 6px;
+}
+
+.column {
+    -ms-flex: 20%;
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 6px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 80%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        -ms-flex: 20%;
+        flex: 20%;
+        max-width: 20%;
+    }   
+    .column img {
+        border-radius: 10px;
+    }
+}
