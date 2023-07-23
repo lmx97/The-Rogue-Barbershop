@@ -1,0 +1,27 @@
+<mxfile host="app.diagrams.net" modified="2023-07-23T09:25:34.683Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CeHUf9OdXpfwPYiiBREo" version="21.6.5" type="device">
+  <diagram name="Page-1" id="EmjG5F8D-fNBBoAxEPIc">
+    <mxGraphModel dx="1367" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pdtm3Hgl0lfiGSB1YQFU-1" value="React frontend&lt;br&gt;Build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="350" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Pdtm3Hgl0lfiGSB1YQFU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pdtm3Hgl0lfiGSB1YQFU-4" target="Pdtm3Hgl0lfiGSB1YQFU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pdtm3Hgl0lfiGSB1YQFU-7" value="static host" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Pdtm3Hgl0lfiGSB1YQFU-6">
+          <mxGeometry x="-0.0101" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pdtm3Hgl0lfiGSB1YQFU-4" value="AWS S3 bucket" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="370" y="411" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Pdtm3Hgl0lfiGSB1YQFU-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.online_hosted_services;" vertex="1" parent="1">
+          <mxGeometry x="680" y="489" width="56" height="52" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
