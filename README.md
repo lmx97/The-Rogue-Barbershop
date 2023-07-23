@@ -3,7 +3,8 @@ The Rogue Barbershop
 
 ## Architect
 open https://app.diagrams.net/
-pull therogue to https://app.diagrams.net/
+pull therogue to https://app.diagrams.net/ or 
+[drawio the rogue](https://app.diagrams.net/#HPython-JAM100%2FThe-Rogue-Barbershop%2Faws-config%2Ftherogue)
 
 ## Install
 install for test, npm start can be skipped if build only
